@@ -1,0 +1,20 @@
+[
+    {
+        "type": "slash",
+        "name": "verifyuserscript",
+        "description": "Verify and update user information",
+        "response": "User {discord_name} has been verified with length '{length}' and HWID '{hwid}'."
+    },
+    {
+        "type": "slash",
+        "name": "removeuserscript",
+        "description": "Remove user script information",
+        "response": "User {discord_name}'s script information has been removed."
+    },
+    {
+        "type": "slash",
+        "name": "menu",
+        "description": "Show the user menu",
+        "response": "Choose an option from the menu."
+    }
+]
